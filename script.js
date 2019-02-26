@@ -45,14 +45,6 @@ function nextThirdImage(el){
 	} else {
 	}
 }
-
-// LEMON --> BAR --> CHERRY
-// function nextImage(el){}
-
-
-// ORANGE --> CHERRY --> SEVEN --> WATERMELON
-//function nextImage(el){}
-
 function checkColors(el){
 	if (a.src.match("images/cherry_slot.PNG") && b.src.match("images/cherry_slot.PNG") && c.src.match("images/cherry_slot.PNG")){
 		mySound.play();
@@ -62,5 +54,8 @@ function checkColors(el){
 		c.classList.add("opaque");
 	} else {
 		alert("BETTER LUCK NEXT TIME");
+		a.classList.remove("opaque");
+		b.classList.remove("opaque");
+		c.classList.remove("opaque");
 	}
 }
