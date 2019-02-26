@@ -53,11 +53,6 @@ function nextThirdImage(el){
 // ORANGE --> CHERRY --> SEVEN --> WATERMELON
 //function nextImage(el){}
 
-function playSound() {
-	// when the JACKPOT! button is clicked, play the slot machine sound
-	document.getElementById('you-win').play();
-}
-
 function checkColors(el){
 	if (a.src.match("images/cherry_slot.PNG") && b.src.match("images/cherry_slot.PNG") && c.src.match("images/cherry_slot.PNG")){
 		mySound.play();
