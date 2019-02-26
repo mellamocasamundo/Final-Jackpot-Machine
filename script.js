@@ -54,8 +54,5 @@ function checkColors(el){
 		c.classList.add("opaque");
 	} else {
 		alert("BETTER LUCK NEXT TIME");
-		a.classList.remove("opaque");
-		b.classList.remove("opaque");
-		c.classList.remove("opaque");
 	}
 }
